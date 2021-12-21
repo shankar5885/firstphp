@@ -11,13 +11,13 @@ variables:
   azureSubscription: '182100ce-f7b7-4047-bc38-b9f6210e48c9'
 
   # Web app name
-  webAppName: 'asfawlfjwae67'
+  webAppName: 'asdfawefawef876 '
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'asfawlfjwae67'
+  environmentName: 'asdfawefawef876 '
 
   # Root folder under which your composer.json file is available.
   rootFolder: $(System.DefaultWorkingDirectory)
@@ -73,7 +73,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : asfawlfjwae67'
+            displayName: 'Deploy Azure Web App : asdfawefawef876 '
             inputs:
               azureSubscription: $(azureSubscription)
               appName: $(webAppName)
