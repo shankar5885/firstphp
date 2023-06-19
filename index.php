@@ -92,7 +92,7 @@
                   
                   echo 'You have entered valid user name and password';
                }else {
-                  $msg = 'Wrong username or password';
+                  $msg = 'You have entered Wrong username or password';
                }
             }
          ?>
